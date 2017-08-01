@@ -1,0 +1,20 @@
+####Instalação do pacote pgirmess (dependencies: rgdal.e rgdal)
+
+Install sp: // In R
+
+	install.packages('sp')
+
+For Ubuntu install gdal and PROJ.4:
+
+	sudo apt-get install libgdal-dev libproj-dev
+
+In R now you can try :
+
+	install.packages('pgirmess')
+
+In Mac:
+
+	install.packages(‘rgdal’,repos=”http://www.stats.ox.ac.uk/pub/RWin“)
+	install.packages('pgirmess')
+
+Fonte: https://stats.stackexchange.com/questions/140641/is-dunn-test-a-suitable-alternative-to-kruskalmc-in-pgirmess-package)
